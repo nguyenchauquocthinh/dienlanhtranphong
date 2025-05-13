@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Điện Lạnh Trần Phong</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      text-align: center;
+    }
+    header {
+      background-color: #0066cc;
+      padding: 30px;
+      text-align: center;
+      width: 100%;
+      color: #fff;
+      border-bottom: 5px solid #004c99;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    .content-container {
+      margin-top: 40px;
+      padding: 30px;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      max-width: 800px;
+      width: 90%;
+    }
+    .section {
+      margin-bottom: 30px;
+      text-align: left;
+    }
+    .section h2 {
+      color: #0066cc;
+    }
+    .section p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+    .contact-form button {
+      background-color: #0066cc;
+      color: #fff;
+      border: none;
+      padding: 12px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .contact-form button:hover {
+      background-color: #004c99;
+    }
+    .footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #666;
+      padding-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔧 Điện Lạnh Trần Phong 🔧</h1>
+    <p>Chuyên Buôn Bán - Sửa Chữa - Vệ Sinh Máy Lạnh</p>
+  </header>
+
+  <div class="content-container">
+    <div class="section">
+      <h2>Dịch Vụ Của Chúng Tôi</h2>
+      <p>✔️ Sửa chữa máy lạnh tại nhà
+      <br>✔️ Vệ sinh, bảo trì định kỳ
+      <br>✔️ Thay thế linh kiện chính hãng
+      <br>✔️ Mua bán máy lạnh cũ - mới giá tốt</p>
+    </div>
+
+    <div class="section">
+      <h2>Liên Hệ Ngay</h2>
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Cảm ơn bạn đã liên hệ!');">
+        <input type="text" placeholder="Họ và tên" required>
+        <input type="tel" placeholder="Số điện thoại" required>
+        <textarea rows="4" placeholder="Nội dung yêu cầu" required></textarea>
+        <button type="submit">Gửi Yêu Cầu</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>© 2025 Điện Lạnh Trần Phong. Đảm bảo uy tín và chất lượng.</p>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
